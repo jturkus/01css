@@ -110,9 +110,12 @@ a:focus {
 
 a:active,
 a:hover {
-    outline: 0;
+    outline: blue;
 }
-
+a:clicked {
+    color: green;
+    outline: green;
+}
 /* ==========================================================================
    Typography
    ========================================================================== */
@@ -126,6 +129,8 @@ a:hover {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    text-align: center;
+    text-shadow: 2px black;
 }
 
 h2 {
